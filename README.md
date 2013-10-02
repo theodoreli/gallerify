@@ -4,16 +4,17 @@ Gallerify
 Barebones animated picture galleries
 --------------------------------------------
 
-see <link>
+see http://gallerify-thead.rhcloud.com/ for live and moving example!
 
 Just pure Javascript (no libraries/frameworks), CSS and HTML.
 
 Goals of this project are
-*cross browser support (Desktop: Works on IE8, FF, and Chrome. Mobile: is to be tested)
-*no reliance on external libraries
-*responsiveness
-*visually appealing transitions/animations
-*modularity
+
+* cross browser support (Desktop: Works on IE8, FF, and Chrome. Mobile: is to be tested)
+* no reliance on external libraries
+* responsiveness
+* visually appealing transitions/animations
+* modularity
 
 To get the slider working:
 ----------------------------------
@@ -123,6 +124,6 @@ css
 TODOS
 --------------
 
-[] better interface for defining rates of transition
-[] better modularity (improved object oriented structure? extract animation algorithm into an engine?)
-[] further IE8+ compatible image transitions
+* better interface for defining rates of transition
+* better modularity (improved object oriented structure? extract animation algorithm into an engine?)
+* further IE8+ compatible image transitions
