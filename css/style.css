@@ -116,18 +116,20 @@ body {
     width: 40px;
     position: absolute;
     margin: auto;
+    top:0;
+    bottom:0;
 }
 
 /* ie8 does not support SVG files*/
 
 #main-car-nav-prev-arrow {
     background: white url("../img/left-arrow.png") no-repeat center;
-    left: 0; top:0; bottom:0;
+    left: 0; 
 }
 
 #main-car-nav-next-arrow {
     background: white url("../img/right-arrow.png") no-repeat center;
-    right: 0; top:0; bottom:0;
+    right: 0;
 }
 
 #main-car-stage > img {
