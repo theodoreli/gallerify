@@ -1,0 +1,185 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 960px;
+    margin: auto;
+}
+
+#header {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-family: helvetica, sans-serif;
+    color: #7f7e83;
+}
+
+#header ul {
+    display: inline;
+}
+
+#header ul li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 24px;
+}
+
+#banner {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px 0 30px 0;
+    float: left;
+}
+
+.black-divider {
+    clear: both;
+    background-color: black;
+    height: 8px;
+    width: 100%;
+}
+
+.article {
+    border: #cdcdcd 1px solid;
+}
+
+#article-content {
+    border-right: #cdcdcd 1px solid;
+    width: 70%;
+}
+
+#article-content > p {
+    margin-top: 25px;
+    margin-bottom:25px;
+    padding: 0 40px 0 40px;
+}
+
+.photo-credit {
+    clear: both;
+    text-align: center;
+    font-family: Futura, sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: gray;
+    letter-spacing: 0.0925em;
+    margin-top: 15px;
+}
+
+.page-title {
+    font-family: Times New Roman, serif;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.gal-descriptor {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Times New Roman, serif;
+}
+
+
+/* http://andmag.se/2012/10/responsive-images-how-to-prevent-reflow */
+
+#main-car {
+    position: relative;
+    clear: both;
+    padding-bottom: 66.18%; 
+    /* derived from image height/width of 634/958px ratio 
+    this enables us to give back page flow spacing that is taken away from <img>'s: absolute property
+    */
+}
+
+/* http://coding.smashingmagazine.com/2013/08/09/absolute-horizontal-vertical-centering-css */
+/* also has references for responsive measures */
+.main-car-nav-stage-arrow {
+    z-index: 10;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    margin: auto;
+}
+
+/* ie8 does not support SVG files*/
+
+#main-car-nav-prev-arrow {
+    background: white url("../img/left-arrow.png") no-repeat center;
+    left: 0; top:0; bottom:0;
+}
+
+#main-car-nav-next-arrow {
+    background: white url("../img/right-arrow.png") no-repeat center;
+    right: 0; top:0; bottom:0;
+}
+
+#main-car-stage > img {
+    position: absolute;
+    max-width: 100%;
+}
+
+#article-content {
+    margin-top: 40px;
+}
+
+#second-gallery-wrapper {
+    max-width: 554px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#second-gallery-stage {
+    position: relative;
+    padding-bottom: 66.18%;
+}
+
+#second-gallery-nav {
+    text-align: center;
+}
+
+#second-gallery-nav > img {
+    width: 100px;
+    height: 100px;
+}
+
+#second-gallery-text-stage {
+    position: relative;
+    padding-bottom: 150px;
+    overflow: hidden;
+}
+
+#second-gallery-text-stage > div {
+    text-align: center;
+    width: 100%;
+    padding: 20px 30px 20px;
+}
+
+.gallery-text-header {
+    text-transform: uppercase;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+/* styles given by js*/
+.projected {
+    position: absolute;
+    max-width: 100%;
+}
