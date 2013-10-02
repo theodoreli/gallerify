@@ -133,7 +133,7 @@ How it works:
     * For the projector: as seen in the live example, any HTML element can be projected (as I did with text for this live site)
 
 2. The CSS
-    *Responsiveness is a must. Mobile!!!
+    * Responsiveness is a must. Mobile!!!
 
     * For the slider: Arrows on both sides are centered vertically. See http://coding.smashingmagazine.com/2013/08/09/absolute-horizontal-vertical-centering-css for the magic
 
@@ -143,9 +143,7 @@ How it works:
 
 3. The Javascript (I love you javascript...)
     * I've tried to put in some OO goodness into this. Each Gallery created can have up to one of each type of gallery animation
-
     * There are only two methods to possibly call: buildProjector() and buildSlider()
-
     * Parameters for both build functions are all DOM ID tags!
 
 
