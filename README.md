@@ -19,6 +19,7 @@ To get the slider working:
 ----------------------------------
 
 html
+
     <div id="main-car">
         <div id="main-car-nav-prev-arrow" class="main-car-nav-stage-arrow">
         </div>
@@ -32,11 +33,13 @@ html
     </div>
 
 js (along with including gallerify.js)
+
     var gal1 = new Gallery();
 
     gal1.buildSlider("main-car-nav-prev-arrow", "main-car-nav-next-arrow", "main-car-stage");
 
 css
+
     #main-car {
         position: relative;
         clear: both;
@@ -71,6 +74,7 @@ To get the projector working:
 ----------------------------------
 
 html
+
     <div id="second-gallery-wrapper">
         <div id="second-gallery-stage">
             <img src="img/ferrari1.jpg"/>
@@ -85,10 +89,12 @@ html
     </div>
 
 js *note that a single Gallery instance can have both a projector and a slider
+
     var gal1 = new Gallery();
     gal1.buildProjector("second-gallery-stage", "second-gallery-nav", true);
 
 css
+
     #second-gallery-wrapper {
         max-width: 554px;
         left: 0;
@@ -116,6 +122,7 @@ css
 
 TODOS
 --------------
+
 [] better interface for defining rates of transition
 [] better modularity (improved object oriented structure? extract animation algorithm into an engine?)
 [] further IE8+ compatible image transitions
