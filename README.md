@@ -129,12 +129,10 @@ How it works:
 --------------
 
 1. Content injecting into Gallery
-
     * For the sake of modularity, gallery content is injected via HTML directly. So this is great for templating engines. 
     * For the projector: as seen in the live example, any HTML element can be projected (as I did with text for this live site)
 
 2. The CSS
-
     *Responsiveness is a must. Mobile!!!
 
     * For the slider: Arrows on both sides are centered vertically. See http://coding.smashingmagazine.com/2013/08/09/absolute-horizontal-vertical-centering-css for the magic
@@ -144,7 +142,6 @@ How it works:
     * Answer: If our images to be injected have predefined dimensions, we have a solution. On the img's parent container (we call it a stage) we give it a padding-bottom formula. http://andmag.se/2012/10/responsive-images-how-to-prevent-reflow explains that "since the height of the div is calculated based on width on the parent div" we can take the current max-width value somewhere on a parental node. We use the image's width to height ratio as the % value for the padding-bottom. [I would have implemented this automatically, but so far I cannot find an IE8 compatible solution for CSS property/value setting]
 
 3. The Javascript (I love you javascript...)
-
     * I've tried to put in some OO goodness into this. Each Gallery created can have up to one of each type of gallery animation
 
     * There are only two methods to possibly call: buildProjector() and buildSlider()
