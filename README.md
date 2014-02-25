@@ -4,7 +4,7 @@ Gallerify
 Barebones animated picture galleries
 --------------------------------------------
 
-see http://gallerify-thead.rhcloud.com/ for live and moving example!
+see http://theodoreli.github.io/gallerify/ for live and moving example!
 
 Just pure Javascript (no libraries/frameworks), CSS and HTML.
 
@@ -153,4 +153,4 @@ TODOS
 
 Any feedback is welcomed and appreciated! (woo! this is my first github repo uploaded)
 
-Again, see http://gallerify-thead.rhcloud.com/ for live and moving example! :)
+Again, see http://theodoreli.github.io/gallerify/ for live and moving example! :)
